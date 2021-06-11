@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: persona.nombre
   inspection: Uses:propiedadNombre
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: persona.edad
+  inspection: Uses:propiedadEdad
