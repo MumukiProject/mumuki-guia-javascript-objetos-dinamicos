@@ -30,12 +30,12 @@ describe("", function() {
 
 describe("", function() {
   it("la propiedad nombre de la persona referencia a propiedadNombre", function() {
-    assert.eql(persona.nombre, propiedadNombre);
+    assert.equal(persona.nombre, propiedadNombre);
   })
 })
 
 describe("", function() {
   it("la propiedad edad de la persona referencia a propiedadEdad", function() {
-    assert.eql(persona.edad, propiedadEdad);
+    assert.equal(persona.edad, propiedadEdad);
   })
 })
