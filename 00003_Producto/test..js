@@ -1,6 +1,6 @@
 describe("", function() {
   it("Si tenemos el siguiente producto ", function() {
-    let let producto = {
+    let producto = {
       id: "ADA-020",
       titulo: "Gubergren sed est amet voluptua",
       precio: 123.75,
