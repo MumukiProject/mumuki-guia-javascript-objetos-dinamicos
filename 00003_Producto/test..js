@@ -1,5 +1,5 @@
 describe("", function() {
-  it("Si tenemos el siguiente producto ", function() {
+  it("Si hacemos obtenerPropiedadesYValores(producto) retorna 'producto[id] -> ADA-020\nproducto[titulo] -> Gubergren sed est amet voluptua\nproducto[precio] -> 123.75\nproducto[imagen] -> https://i.kinja-img.com/gawker-media/image/upload/s--53mPze4a--/c_scale,f_auto,fl_progressive,q_80,w_800/1315358249455433031.jpg\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> true\nproducto[ubicacion] -> Capital Federal\n' ", function() {
     let producto = {
       id: "ADA-020",
       titulo: "Gubergren sed est amet voluptua",
