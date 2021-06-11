@@ -9,6 +9,6 @@ teacher_info: ''
 manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  kind: last_query_matches
-  regexp: Object.keys(producto)
+  kind: last_query_outputs
+  output: '["id","titulo","precio","imagen","condicion","envioGratis","ubicacion"]'
 name: Keys
