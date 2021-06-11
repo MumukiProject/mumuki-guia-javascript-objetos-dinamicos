@@ -1,6 +1,3 @@
-- Declarar una variable con el nombre **propiedadNombre** y asignar el valor nombre
-- Declarar una variable con el nombre **propiedadEdad** y asignar el valor edad
-- Crear un objeto **persona** con las propiedades nombre y edad
-- Asignar a las propiedades del objeto **persona** tu nombre y edad
-- Mostrar en consola los valores de cada propiedad del objeto persona utilizando corchetes y los valores: 'nombre' y 'edad' en lugar de utilizar el punto
-- Mostrar en consola los valores de cada propiedad del objeto persona utilizando las variables **propiedadNombre** y **propiedadEdad**
+En el ejercicio anterior ya declaramos la variable `persona`. Ahora vamos a acceder a sus propiedades. Para ello no utilizaremos el punto sino los corchetes(`[ ]`) y las comillas (`""`). 
+
+> Mostrá en la consola las propiedades del objeto `persona`. Primero el `nombre` y luego la `edad`. 
