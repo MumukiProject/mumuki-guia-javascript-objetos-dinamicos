@@ -1,31 +1,27 @@
-- Completa el código dentro de la función `hasProperty`
-  - Si el objeto de la variable `object` tiene la propiedad que recibe en la variable `property`, retorna `true`
-  - Sino retorna `false`
+Necesitamos definir una función que nos ayude a determinar si un objeto cuenta con una propiedad.
+Para lograrlo vamos a definir la función `tienePropiedad` que reciba un objeto y una propiedad por parámetro y retorne si dicho objeto contiene esa propiedad.
 
 ```js
-const hasProperty = (object, property) => {
-  // return true si el objeto (object) tiene la propiedad (property) que llega por parametro
-  // property es un string
-  // sino return false
-  return !!object[property];
+
+let perfil = {
+  nombreDeCuenta: "ada_lovelace",
+  contrasenia: "1234567890!",
 };
 
-const user = {
-  username: "ada_lovelace",
-  password: "1234567890!",
-};
-
-const user2 = {
-  username: "grace_hopper",
-  password: "1234567890!",
+let perfil2 = {
+  nombreDeCuenta: "grace_hopper",
+  contrasenia: "1234567890!",
   email: "grace@hopper.com",
 };
 
-console.log(hasProperty(user, "email")); // false
-console.log(hasProperty(user, "password")); // true
-console.log(hasProperty(user, "id")); // false
+ム tienePropiedad(perfil, "email");
+false
+ム tienePropiedad(perfil, "contrasenia");
+true
 
-console.log(hasProperty(user2, "email")); // true
-console.log(hasProperty(user2, "password")); // true
-console.log(hasProperty(user2, "id")); // false
+ム tienePropiedad(perfil2, "email"));
+true
+ム tienePropiedad(perfil2, "id");
+false
 ```
+> Definí la función `tienePropiedad`.
