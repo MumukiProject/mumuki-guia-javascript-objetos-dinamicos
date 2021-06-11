@@ -16,7 +16,7 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("Si hacemos obtenerPropiedadesYValores(producto2) retorna 'producto[id] -> ADA-020\nproducto[titulo] -> Gubergren sed est amet voluptua\nproducto[precio] -> 123.75\nproducto[imagen] -> https://i.kinja-img.com/gawker-media/image/upload/s--53mPze4a--/c_scale,f_auto,fl_progressive,q_80,w_800/1315358249455433031.jpg\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> true\nproducto[ubicacion] -> Capital Federal\n' ", function() {
+  it("Si hacemos obtenerPropiedadesYValores(producto2) retorna 'producto[id] -> ADA-011\nproducto[titulo] -> EL mejor libro de Frontend\nproducto[precio] -> 144.88\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> false\nproducto[ubicacion] -> Mendoza\n' ", function() {
     let producto2 = {
       id: "ADA-011",
       titulo: "EL mejor libro de Frontend",
@@ -25,7 +25,7 @@ describe("", function() {
       envioGratis: false,
       ubicacion: "Mendoza",
     };
-    let resultado = "producto[id] -> ADA-020\nproducto[titulo] -> Gubergren sed est amet voluptua\nproducto[precio] -> 123.75\nproducto[imagen] -> https://i.kinja-img.com/gawker-media/image/upload/s--53mPze4a--/c_scale,f_auto,fl_progressive,q_80,w_800/1315358249455433031.jpg\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> true\nproducto[ubicacion] -> Capital Federal\n"
+    let resultado = "producto[id] -> ADA-011\nproducto[titulo] -> EL mejor libro de Frontend\nproducto[precio] -> 144.88\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> false\nproducto[ubicacion] -> Mendoza\n"
     assert.equal(obtenerPropiedadesYValores(producto), resultado)
   })
 })
