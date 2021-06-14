@@ -1,5 +1,5 @@
 Necesitamos definir una función que nos ayude a determinar si un objeto cuenta con una propiedad.
-Para lograrlo vamos a definir la función `tienePropiedad` que reciba un perfil y una propiedad por parámetro y retorne si dicho perfil contiene esa propiedad.
+Para lograrlo vamos a definir la función `tienePropiedad` que reciba un perfil y una propiedad por parámetro y retorne si dicho perfil contiene esa propiedad. Por ejemplo:
 
 ```js
 ム let perfil = {
