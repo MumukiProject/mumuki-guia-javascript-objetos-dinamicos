@@ -4,4 +4,4 @@ Vamos a crear una persona. No como Victor Frankenstein, sino programando. :man_z
 * declará una variable `propiedadEdad` y asignale un nombre;
 * declará una variable `persona` con las propiedades `nombre` y `edad`;
 >
-El nombre y la edad del objeto `persona` estarán dadas por las `propiedadNombre` y `propiedadEdad`.
+El nombre y la edad del objeto `persona` estarán dadas por `propiedadNombre` y `propiedadEdad`.
