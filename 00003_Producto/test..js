@@ -26,6 +26,6 @@ describe("", function() {
       ubicacion: "Mendoza",
     };
     let resultado = "producto[id] -> ADA-011\nproducto[titulo] -> EL mejor libro de Frontend\nproducto[precio] -> 144.88\nproducto[condicion] -> nuevo\nproducto[envioGratis] -> false\nproducto[ubicacion] -> Mendoza\n"
-    assert.equal(obtenerPropiedadesYValores(producto), resultado)
+    assert.equal(obtenerPropiedadesYValores(producto2), resultado)
   })
 })

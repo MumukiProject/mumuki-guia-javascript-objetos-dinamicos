@@ -12,14 +12,6 @@ Queremos visualizar fácilmente las propiedades y valores de nuestros productos 
   ubicacion: "Capital Federal",
 };
 
-let producto2 = {
-  id: "ADA-011",
-  titulo: "EL mejor libro de Frontend",
-  precio: 144.88,
-  condicion: "nuevo",
-  envioGratis: false,
-  ubicacion: "Mendoza",
-};
 ム obtenerPropiedadesYValores(producto)
 `
 producto['id'] -> ADA-020
