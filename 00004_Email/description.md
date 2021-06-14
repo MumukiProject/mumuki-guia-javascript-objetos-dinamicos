@@ -1,4 +1,4 @@
-Contamos con perfiles que tienen `nombreDeCuenta` y `contrasenia` y pueden tener o no el campo `email`. Por ejemplo:
+Contamos con perfiles que tienen `nombreDeCuenta` y `contrasenia` y pueden tener o no el campo `email` :envelope:. Por ejemplo:
 
 ```js
 let perfilSinEmail = {
