@@ -6,7 +6,7 @@ describe("", function() {
       email: 'ada_lovelace@gmail.com'
     };
 
-    assert.equal(tienePropiedad(perfil, 'email'), true)
+    assert(tienePropiedad(perfil, 'email'))
   })
 })
 
@@ -18,7 +18,7 @@ describe("", function() {
       email: 'ada_lovelace@gmail.com'
     };
 
-    assert.equal(tienePropiedad(perfil, 'contrasenia'), true)
+    assert(tienePropiedad(perfil, 'contrasenia'))
   })
 })
 
@@ -30,18 +30,18 @@ describe("", function() {
       email: 'ada_lovelace@gmail.com'
     };
 
-    assert.equal(tienePropiedad(perfil, 'id'), false)
+    assert(!tienePropiedad(perfil, 'id'))
   })
 })
 
 describe("", function() {
-  it("Si el perfil no tiene un número de telefono, y hacemos tienePropiedad(perfil, 'telefono') retorna false", function() {
+  it("Si el perfil no tiene un número de teléfono, y hacemos tienePropiedad(perfil, 'telefono') retorna false", function() {
     let perfil = {
       nombreDeCuenta: "ada_lovelace",
       contrasenia: "1234567890!",
       email: 'ada_lovelace@gmail.com'
     };
 
-    assert.equal(tienePropiedad(perfil, 'telefono'), false)
+    assert(!tienePropiedad(perfil, 'telefono'))
   })
 })
