@@ -1,1 +1,1 @@
-TODO
+En esta lección vamos a aprender a crear objetos y asignarle propiedades, para luego poder acceder a ellas y realizar consultas. :star_struck:
