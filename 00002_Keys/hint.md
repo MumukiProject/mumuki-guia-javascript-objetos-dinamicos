@@ -1,0 +1,1 @@
+¿Y cómo se utiliza `keys`? Podés ver su documentación [acá](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/keys).
